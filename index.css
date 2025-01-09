@@ -253,3 +253,256 @@ p {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0rem;
+}
+
+.pricing h3, p{
+  text-align: center;
+}
+.pricing h3{
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: rgb(26, 24, 24);
+}
+.pricing p{
+  font-size: 1.2rem;
+  color: grey;
+}
+.price-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1px;
+}
+.price-card{
+ height:39rem;
+ width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #23a6f0;
+  border-radius: 10px;
+}
+.price{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: #23a6f0;
+}
+.price h2{
+  font-size: 3rem;
+ 
+}
+.price p{
+  color: #23a6f0;
+}
+
+.properties{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 5px;
+  padding: 4rem 0rem;
+}
+.properties ion-icon{
+  width: 2rem;
+  height: 2rem;
+  color: green;
+}
+.properties span .grey{
+  color: grey;
+}
+.properties span{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.properties button {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  background-color: #23a6f0;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 18rem;
+  align-self: center;
+}
+.properties span p{
+  text-align: left;
+}
+.price-cards .taller{
+  height: 43rem;
+  background-color: rgb(32, 31, 48);
+}
+.price-cards .taller h2{
+  color: #ffffff;
+}
+.price-cards .taller p{
+  color: #ffffff;
+}
+.price-cards .taller .properties p{
+  color: #ffffff;
+}
+.geography{
+  position: relative;
+  background-color: rgb(32, 31, 48);
+  height: 100vh;
+  margin-bottom: 70vh;
+}
+.geo{
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 7rem;
+  display: flex;
+}
+.geotext{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+}
+.geotext h2{
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+.geotext p{
+  color: #ffffff;
+  text-align: left;
+}
+.geography img{
+  width: 40%;
+}
+.form-container{
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  display: flex;
+  gap: 1rem;
+ 
+  height: fit-content;
+  background-color: #ffffff;
+  width: 60%;
+  margin-bottom: 20rem;
+}
+.form-container img{
+  width: 33%;
+  height: 100%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 4rem;
+ width: 67%;
+}
+
+.form input, .form select, .form button{
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.13);
+  border-radius: 5px;
+  background-color: #fafafa80;
+  
+}
+.form button{
+  background-color: #23a6f0;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.contact{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0rem;
+  width: 75%;
+  margin: 0 auto;
+}
+.contact button{
+  background-color: #23a6f0;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
+.contact-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-text h4{
+ font-size: 1.25rem;
+ text-align: left;
+}
+.contact-text p{
+  color: grey;
+  text-align: left;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.services{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  width: 100%;
+}
+.category{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.category h4{
+  color: rgba(12, 9, 9, 0.815);
+  font-size: 1rem;
+}
+.category a{
+  color: grey;
+}
+.category span{
+  display: flex;
+  gap: 1rem;
+}
+.category span ion-icon{
+  color: #23a6f0;
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 80%;
+  gap: 19rem;
+}
+.socials{
+  display: flex;
+  gap: 1rem;
+}
+.socials ion-icon{
+  color: #23a6f0;
+}
